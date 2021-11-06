@@ -1,10 +1,10 @@
 package io.github.ThatRobin.ccpacks;
 
 import com.google.gson.JsonParseException;
-import io.github.ThatRobin.ccpacks.Util.ColourHolder;
-import io.github.ThatRobin.ccpacks.Util.ItemGroups;
-import io.github.ThatRobin.ccpacks.Util.StatBarHudRender;
-import io.github.ThatRobin.ccpacks.Util.ToolTypes;
+import io.github.ThatRobin.ccpacks.util.ColourHolder;
+import io.github.ThatRobin.ccpacks.util.ItemGroups;
+import io.github.ThatRobin.ccpacks.util.StatBarHudRender;
+import io.github.ThatRobin.ccpacks.util.ToolTypes;
 import io.github.apace100.apoli.data.ApoliDataTypes;
 import io.github.apace100.apoli.power.factory.condition.ConditionFactory;
 import io.github.apace100.calio.Calio;
@@ -21,8 +21,6 @@ import net.minecraft.entity.SpawnGroup;
 import net.minecraft.entity.attribute.DefaultAttributeContainer;
 import net.minecraft.entity.attribute.EntityAttributes;
 import net.minecraft.entity.mob.MobEntity;
-import net.minecraft.entity.mob.PathAwareEntity;
-import net.minecraft.entity.passive.AnimalEntity;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.tag.Tag;
